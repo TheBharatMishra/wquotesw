@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+# Breaking Bad Quotes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Live version : [walterwhite.vercel.app](https://walterwhite.vercel.app)
 
-Currently, two official plugins are available:
+This is a front end web app made to showcase breaking bad dialogues and quotes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies used in this project are:
 
-## Expanding the ESLint configuration
+- [ReactJS](https://react.dev/) as for fast frontend development.
+- [Tailwind CSS](https://tailwindcss.com/docs/installation) for better
+- [Typescript](https://www.typescriptlang.org/) for type-safety and [SWC](https://swc.rs/) for Fast Refresh
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+- To use this template follow these instructions:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```
+   git clone https://github.com/TheBharatMishra/wquotesw.git
+   cd wquotesw
+   npm install
+   npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#### API used in this project can be found here: [breakingbadquotes.xyz](https://api.breakingbadquotes.xyz/v1/quotes/)
+
+If you found this information helpful. You can support me by [buying me a coffee](https://www.buymeacoffee.com/bharatmishra).
